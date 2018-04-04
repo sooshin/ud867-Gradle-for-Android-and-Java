@@ -69,3 +69,10 @@ task lists {
         newList.each{println "Favorite candies in all caps: $it"}
     }
 }
+
+task quiz{
+    doLast {
+        def foo = "bar"
+        println "$foo + foo = ${foo + "foo"}"
+    }
+}
