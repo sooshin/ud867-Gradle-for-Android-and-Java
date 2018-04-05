@@ -10,3 +10,8 @@ Exercises:
    file.
 
 */
+// exercise 1
+apply plugin: "java"
+
+// exercise 2
+// gradle assemble
