@@ -20,8 +20,21 @@ in the webOutputDir property via the command line).
 
 */
 
+// exercise 1
+// * What went wrong:
+// A problem occurred evaluating root project '1.14-Exercise-UseGradleProperties'.
+// > Could not get unknown property 'webOutputDir' for task ':bundleWeb' of type org.gradle.                         api.tasks.bundling.Zip.
+
+// exercise 3
+// gradle -PwebOutputDir=build2 bundleWeb
+
+// exercise 4
+ext {
+	nameOfZip = 'web2'
+}
+
 task bundleWeb(type: Zip) {
-    baseName = 'web'
+    baseName = nameOfZip
     destinationDir = file(webOutputDir)
 
     from 'src/web'
