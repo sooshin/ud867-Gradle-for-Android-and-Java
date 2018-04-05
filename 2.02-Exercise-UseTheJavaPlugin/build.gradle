@@ -13,5 +13,5 @@ Exercises:
 // exercise 1
 apply plugin: "java"
 
-// exercise 2
-// gradle assemble
+// exercise 2 answer
+// gradle jar 
