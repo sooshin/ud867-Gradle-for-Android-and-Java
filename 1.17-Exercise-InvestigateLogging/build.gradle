@@ -28,12 +28,40 @@ task hello(type: HelloTask)
 class HelloTask extends DefaultTask {
     @TaskAction
     void doAction() {
-        println 'Hello World'
+        logger.info('An info log message: beginning')
+
+        logger.lifecycle('Hello World')
+        logger.info('An info log message: end')
+        logger.debug('Catch me if you can')
     }
 }
 
-/*
+
+
 task derpy << {
     primp "Herp de derp"
 }
-*/
+
+// exercise 2
+// gradle --info hello
+
+// exercise 5
+// gradle -q hello
+
+// exercise 6
+// * What went wrong:
+// Execution failed for task ':derpy'.
+// > Could not find method primp() for arguments [Herp de derp] on task ':derpy' of type org.gradle.api.DefaultTask.
+// * Exception is:
+// org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':derpy'.
+
+// exercise 7 ??
+// gradle -debug hello
+
+// quiz
+// gradle -debug quiz
+task quiz{
+  doLast {
+    println "Hello World"
+  }
+}
