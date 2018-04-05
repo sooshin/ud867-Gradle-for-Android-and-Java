@@ -55,13 +55,21 @@ task derpy << {
 // * Exception is:
 // org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':derpy'.
 
+// answer
+// Caused by: org.gradle.api.internal.MissingMethodException: Could not find method primp() for arguments [Herp de derp] on root project '1.16-Exercise-InvestigateLogging'.
+
 // exercise 7 ??
 // gradle -debug hello
+// answer
+// gradle -dedug hello |findstr "Catch me if you can"
 
 // quiz
 // gradle -debug quiz
+// solution
+// gradle -debug quiz |findstr "Hello World"
 task quiz{
   doLast {
     println "Hello World"
   }
 }
+// 19:40:30.308 [QUIET] [system.out] Hello World
