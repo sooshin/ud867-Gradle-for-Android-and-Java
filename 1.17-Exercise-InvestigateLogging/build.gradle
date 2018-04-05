@@ -61,7 +61,7 @@ task derpy << {
 // exercise 7 ??
 // gradle -debug hello
 // answer
-// gradle -dedug hello |findstr "Catch me if you can"
+// gradle -dedug hello |findstr "Catch me if you can" -> shows all output
 
 // quiz
 // gradle -debug quiz
