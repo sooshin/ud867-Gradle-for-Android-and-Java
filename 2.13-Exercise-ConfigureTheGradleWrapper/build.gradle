@@ -19,3 +19,21 @@ Hint: For more information on using Gradle nightly builds, check out the
 Gradle website: http://gradle.org/gradle-nightly-build/
 
 */
+// exercise 1
+// $ gradle wrapper
+
+// exercise 2
+// $ ./gradlew tasks (Gradle version 4.6)
+
+// exercise 3
+wrapper {
+	gradleVersion = '2.14.1'
+}
+// $ gradle wrapper
+// $ ./gradlew tasks
+
+// exercise 4
+// $ ./gradlew --version (Gradle version 2.14.1)
+
+// exercise 5
+// $ ./gradlew wrapper --gradle-version=4.8-20180406000001+0000
