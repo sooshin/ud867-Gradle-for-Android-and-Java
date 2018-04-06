@@ -20,3 +20,9 @@ apply plugin: 'java'
 repositories {
     mavenCentral()
 }
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+}
+
+//org.junit.ComparisonFailure: expected:<[foo]> but was:<[Jeremy]>
