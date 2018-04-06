@@ -49,3 +49,11 @@ task zipDeps(type: Zip) {
 	classifier = 'deps'
 	from configurations.deps
 }
+
+// quiz
+task quiz(type: Zip) {
+	version = "4.2"
+	baseName = "Foo"
+	classifier = "SNAPSHOT"
+	from configurations.deps
+}
