@@ -26,3 +26,24 @@ User Guide chapter regarding the Java plugin.
 https://docs.gradle.org/current/userguide/java_plugin.html#sec:source_sets
 
 */
+// exercise 1
+apply plugin: "java"
+
+// exercise 2
+jar {
+	manifest {
+		attributes "Implementation-Version": "1.0"
+	}
+}
+
+// exercise 3 --answer
+sourceSets {
+	main {
+		java {
+			srcDirs 'java'
+		}
+	}
+}
+
+// exercise 4
+// gradle jar
