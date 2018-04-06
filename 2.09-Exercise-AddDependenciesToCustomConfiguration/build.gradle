@@ -45,8 +45,7 @@ dependencies {
 
 // exercise 5
 task zipDeps(type: Zip) {
-	baseName 'dependencyArchive'
-	classifier 'deps'
-
+	baseName = 'dependencyArchive'
+	classifier = 'deps'
 	from configurations.deps
 }
