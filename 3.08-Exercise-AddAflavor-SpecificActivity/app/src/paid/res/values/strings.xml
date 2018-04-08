@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flavor Specific Activity - Paid</string>
+    <string name="greeting">Welcome to the paid version!</string>
+    <!-- https://frugalfun4boys.com/2015/04/30/hilarious-jokes-for-kids/ -->
+    <string name="joke">What do you call a bear with no teeth?\nA gummy bear!</string>
+    <string name="joke_activity">Joke Activity</string>
+</resources>
