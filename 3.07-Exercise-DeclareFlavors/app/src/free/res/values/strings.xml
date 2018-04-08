@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="product_flavor_name">Free</string>
+    <!--www.quickfunnyjokes.com/cheesy.html-->
+    <string name="joke">Why was the baby strawberry crying?
+        \nBecause his mom and dad were in a jam.</string>
 </resources>

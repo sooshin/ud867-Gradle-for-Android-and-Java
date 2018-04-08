@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="product_flavor_name">Paid</string>
+    <!-- https://frugalfun4boys.com/2015/04/30/hilarious-jokes-for-kids/ -->
+    <string name="joke">What do you call a bear with no teeth?
+        \nA gummy bear!</string>
 </resources>
