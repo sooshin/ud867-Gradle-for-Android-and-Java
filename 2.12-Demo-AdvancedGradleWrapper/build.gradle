@@ -29,7 +29,7 @@ property on the 'wrapper' task. Let's set the version to '2.2' and run the
 */
 
 wrapper {
-    gradleVersion = '2.2'
+    gradleVersion = '2.3'
 }
 
 /*

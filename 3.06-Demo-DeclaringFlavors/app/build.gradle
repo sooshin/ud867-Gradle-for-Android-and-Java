@@ -19,7 +19,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         applicationId "com.example.udacity.declaringflavors"
@@ -35,6 +35,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    // Specifies flavor dimension
+    flavorDimensions "tier"
 
     productFlavors {
         free {

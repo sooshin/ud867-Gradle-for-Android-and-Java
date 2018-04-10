@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 public class LibraryActivityFragment extends Fragment {
+
     public LibraryActivityFragment() {
     }
 
@@ -21,7 +22,9 @@ public class LibraryActivityFragment extends Fragment {
         if (intent.hasExtra(Intent.EXTRA_TEXT)) {
             String jokeFromJavaLibrary = intent.getStringExtra(Intent.EXTRA_TEXT);
             TextView libraryTextView = rootView.findViewById(R.id.libraryTextView);
-            libraryTextView.setText(jokeFromJavaLibrary);
+            if (jokeFromJavaLibrary != null && jokeFromJavaLibrary.length() != 0) {
+                libraryTextView.setText(jokeFromJavaLibrary);
+            }
         }
         return rootView;
     }

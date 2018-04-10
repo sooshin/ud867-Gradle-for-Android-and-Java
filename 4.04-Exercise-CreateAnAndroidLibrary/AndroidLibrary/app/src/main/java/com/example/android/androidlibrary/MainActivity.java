@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void launchLibraryActivity(View view) {
-        // Retrieves a joke from the Jaa library
+        // Retrieves a joke from the Java library
         SupplyJoke supplyJoke = new SupplyJoke();
         String jokeFromJavaLibrary = supplyJoke.getJoke();
 

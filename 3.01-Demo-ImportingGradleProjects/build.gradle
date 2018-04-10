@@ -12,6 +12,12 @@ task tellJoke {
     }
 }
 
+task tellAnotherJoke {
+    doLast {
+        println "How long does it take to master build tools?"
+        println "From the Gradle to the grave."
+    }
+}
 /*
 
 Let's import this project into Android Studio. Open Android Studio, and from
